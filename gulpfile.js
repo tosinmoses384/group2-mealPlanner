@@ -23,14 +23,14 @@ gulp.task('copyHtml', function(){
             .pipe(gulp.dest('dist'));
 });
 
-// Optimize Image
+// Optimize Images
 gulp.task('imageMin', () =>
 	gulp.src('src/images/*')
 		.pipe(imagemin())
 		.pipe(gulp.dest('dist/images'))
 );
 
-// Minify Js
+//Minify Js
 // gulp.task('minify', function(){
 //     gulp.src('src/js/*.js')
 //         .pipe(uglify())
@@ -47,7 +47,7 @@ gulp.task('sass', function(){
 // Scripts
 gulp.task('scripts', function(){
         gulp.src('src/js/*.js')
-            .pipe(concat('main.js'))
+            .pipe(concat('main2.js'))
             .pipe(uglify())
             .pipe(gulp.dest('dist/js'));
 });
