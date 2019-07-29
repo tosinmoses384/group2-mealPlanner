@@ -1,0 +1,26 @@
+{
+  "name": "tosin-mealplanner",
+  "version": "1.0.0",
+  "description": "Example app using Gulp",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tosinmoses384/tosin-mealPlanner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tosinmoses384/tosin-mealPlanner/issues"
+  },
+  "homepage": "https://github.com/tosinmoses384/tosin-mealPlanner#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2"
+  }
+}
